@@ -1,0 +1,121 @@
+h1 {
+    font-family: Arial;
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(170, 175, 175);
+}
+h1.Nombre{
+    box-shadow: none;
+    color: rgb(27, 29, 29);
+}
+h1.Pj{
+    color:goldenrod;
+    background-color: white;
+}
+
+h2 {
+    grid-row: 1;
+    text-align: center;
+    font-size: medium;
+}
+
+h3 {
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.Encabezado {
+    background-color: rgb(170, 175, 175);
+    grid-row: 2;
+    grid-column: 1;
+    border: solid 1px white;
+    margin-left: 0%;
+    margin: 0;
+}
+
+body {
+    background-image: url('img/Background\(White\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    margin: 0;
+    display: grid;
+}
+
+.TextL {
+    background-color: rgb(170, 175, 175);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 10%;
+    margin-top: 2em;
+    grid-row: 4;
+    grid-column: 1;
+    border: solid 1px white;
+    padding: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+.Text {
+    margin-left: 2%;
+    border: none;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 1em;
+    text-align: center;
+
+
+}
+
+.BotonL {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 1em;
+}
+
+.Boton1 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 1em;
+}
+
+.Boton2 {
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 1em;
+}
+
+section {
+    gap: 10%;
+    margin-top: 2em;
+    grid-row: auto;
+    grid-column: 1;
+    border: solid 1px white;
+    padding: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(170, 175, 175);
+    font-family: Arial;
+    color: rgb(27, 29, 29);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
